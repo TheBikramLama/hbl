@@ -9,6 +9,21 @@
             "email": "thebikramlama1123@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Thebikramlama\\Hbl\\": "src/"
+        }
+    },
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thebikramlama\\Hbl\\HblServiceProvider"
+            ],
+            "aliases": {
+                "Hbl": "Thebikramlama\\Hbl\\Hbl"
+            }
+        }
+    }
 }
