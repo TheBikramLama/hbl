@@ -1,0 +1,14 @@
+{
+    "name": "thebikramlama/hbl",
+    "description": "HBL Payment Integration - Laravel Package",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bikram Lama",
+            "email": "thebikramlama1123@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
