@@ -13,8 +13,6 @@ class HblServiceProvider extends ServiceProvider
 
         // Load Views
         $this->loadViewsFrom( __DIR__.'/views', 'hbl' );
-        // Overridding Views
-        $this->publishes([ __DIR__.'/views' => resource_path('views/vendor/hbl') ]);
 
         // Load Routes
         $this->loadRoutesFrom( __DIR__.'/routes/web.php' );
