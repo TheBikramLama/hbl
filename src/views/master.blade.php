@@ -7,7 +7,7 @@
 
 	<title>@yield('title', 'Himalayan Bank Limited - Processing Payment')</title>
 
-	<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TheBikramLama/hbl@master/assets/css/style.css">
 	@yield('css')
 
 </head>

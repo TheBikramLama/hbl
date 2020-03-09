@@ -5,7 +5,7 @@
 	<h1 aria-label="Himalayan Bank Limited">
 		Payment of {{ ( $currencyCode == '840' ) ? '$' : 'Rs.' }}{{ number_format($amount/100) }}
 		<br><br>
-		<img src="{{ asset('assets/images/hbl-logo.jpg') }}" alt="Himalayan Bank Limited">
+		<img src="https://raw.githubusercontent.com/TheBikramLama/hbl/master/assets/images/hbl-logo.jpg" alt="Himalayan Bank Limited">
 	</h1>
 	@if ( $clickContinue == true )
 	<p>
