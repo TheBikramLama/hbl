@@ -56,16 +56,16 @@ class Hbl {
 		// Saving Data in array for further consumption
 		$hbl_data = [
 			// User defined Values
-            "amount" => $amount,
-            "invoiceNo" => $invoiceNo,
-            "productDesc" => $productDesc,
-            "userDefinedValues" => $userDefinedValues,
-            // HBL Options
-            "currencyCode" => $currencyCode,
-            "nonSecure" => $nonSecure,
-            // HBL Data Generation
+			"amount" => $amount,
+			"invoiceNo" => $invoiceNo,
+			"productDesc" => $productDesc,
+			"userDefinedValues" => $userDefinedValues,
+			// HBL Options
+			"currencyCode" => $currencyCode,
+			"nonSecure" => $nonSecure,
+			// HBL Data Generation
 			"paymentGatewayID" => $paymentGatewayID,
-            "hashValue" => $hashValue
+			"hashValue" => $hashValue
 		];
 
 		// Generate a Payment ID

@@ -1,29 +1,29 @@
 {
-    "name": "thebikramlama/hbl",
-    "description": "HBL Payment Integration - Laravel Package",
-    "type": "package",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Bikram Lama",
-            "email": "thebikramlama1123@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Thebikramlama\\Hbl\\": "src/"
-        }
-    },
-    "minimum-stability": "stable",
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Thebikramlama\\Hbl\\HblServiceProvider"
-            ],
-            "aliases": {
-                "Hbl": "Thebikramlama\\Hbl\\Hbl"
-            }
-        }
-    }
+	"name": "thebikramlama/hbl",
+	"description": "HBL Payment Integration - Laravel Package",
+	"type": "package",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Bikram Lama",
+			"email": "thebikramlama1123@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Thebikramlama\\Hbl\\": "src/"
+		}
+	},
+	"minimum-stability": "stable",
+	"require": {},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Thebikramlama\\Hbl\\HblServiceProvider"
+			],
+			"aliases": {
+				"Hbl": "Thebikramlama\\Hbl\\Hbl"
+			}
+		}
+	}
 }
