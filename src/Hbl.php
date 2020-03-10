@@ -68,7 +68,26 @@ class Hbl {
             "hashValue" => $hashValue
 		];
 
-		return redirect()->route('hbl.index', $hbl_data)->send();
+		// Generate a Payment ID
+		$payment_id = Hbl::generatePaymentId();
+
+		cache()->remember($payment_id, (60*30), function() use($hbl_data) {
+			return $hbl_data;
+		});
+
+		return redirect()->route('hbl.index', $payment_id)->send();
+	}
+
+	public static function generatePaymentId( $length = Null ) {
+		$length = ( is_null($length) || is_nan($length) ) ? 8 : $length;
+		while (true) {
+			$seed = "ABCDEFabcdef1234567890";
+			for ($i=0; $i < $length; $i++) $seed .= $seed;
+			$generated_id = substr( str_shuffle($seed), 0, $length );
+			if ( cache()->get($generated_id) == null ) break;
+		}
+
+		return $generated_id;
 	}
 
 	public static function sanitizeUserDefined( $userDefinedValues ) {

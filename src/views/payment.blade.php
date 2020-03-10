@@ -13,6 +13,8 @@
 	</p>
 	<p>
 		Please click on "Proceed" to continue to the payment page.
+		<br>
+		Please do not reload/refresh this page.
 	</p>
 	@else
 	<p>
@@ -20,6 +22,8 @@
 	</p>
 	<p>
 		You will be automatically redirected to the payment page.
+		<br>
+		Please do not reload/refresh this page.
 	</p>
 	@include('hbl::svg.loading')
 	@endif
@@ -39,8 +43,10 @@
 	@endif
 
 	{{-- Check if Click to continue is enabled --}}
-	@if ( $clickContinue == true )
-		<input type="submit" class="btn" value="Proceed to Payment">
+	<input type="submit" class="btn" value="Proceed to Payment">
+	@if ( $clickContinue != true )
+		<br>
+		<small>Click the button above if not redirected.</small>
 	@endif
 </form>
 @endsection

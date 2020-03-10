@@ -43,6 +43,6 @@ return [
 	* "redirectWait" has no effect if "clickContinue" is set to true
 	*/
 	"methodUrl" => "https://hblpgw.2c2p.com/HBLPGW/Payment/Payment/Payment",
-	"clickContinue" => true,
+	"clickContinue" => false,
 	"redirectWait" => 1500,
 ];
