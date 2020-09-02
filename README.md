@@ -5,7 +5,7 @@ Himalayan Bank Payment Integration - Laravel Package
 ![Issues](https://img.shields.io/github/issues/TheBikramLama/hbl)
 [![Downloads](https://img.shields.io/packagist/dt/TheBikramLama/hbl.svg?style=flat-square)](https://packagist.org/packages/thebikramlama/hbl)
 
-Sparrow SMS Laravel Package can be used to send SMS via Sparrow SMS or query account's credits.
+HBL Laravel Package can be used to generate himalayan bank payment requests.
 
 ## Getting Started
 
