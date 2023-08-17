@@ -1,5 +1,13 @@
+NO LONGER WORKING
+===========================
+Please note this package is no longer working.
+<br />
+Please check the demo for new integration: [Demo](https://hbl.bikramlama.com.np/)
+<br />
+Please contact me at: [contact@bikramlama.com.np](mailto:contact@bikramlama.com.np) or call me at [9808134818](tel:9808134818) for new integration.
+
+<br /><br /><br /><br /><br /><br /><br /><br />
 Himalayan Bank Payment Integration - Laravel Package
-=============================
 
 [![Latest Version](https://img.shields.io/github/v/release/TheBikramLama/hbl.svg?style=flat-square)](https://github.com/TheBikramLama/hbl/releases)
 ![Issues](https://img.shields.io/github/issues/TheBikramLama/hbl)
