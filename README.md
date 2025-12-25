@@ -2,9 +2,9 @@ NO LONGER WORKING
 ===========================
 Please note this package is no longer working.
 <br />
-Please check the demo for new integration: [Demo](https://hbl.bikramlama.com.np/)
+Please check the demo for new integration: [Demo](https://hbl-sandbox.rupi.co/)
 <br />
-Please contact me at: [contact@bikramlama.com.np](mailto:contact@bikramlama.com.np) or call me at [9808134818](tel:9808134818) for new integration.
+Please contact me at: [info@rupi.co](mailto:info@rupi.co) or call me at [9808134818](tel:9808134818) for new integration.
 
 <br /><br /><br /><br /><br /><br /><br /><br />
 Himalayan Bank Payment Integration - Laravel Package
